@@ -35,3 +35,4 @@ rates = adding.merge(organize, how = "left" , on = "NAME" ,
 #use the .to_file() method to write rates to a geopackage file using the driver GPKG
 
 rates.to_file("new_york_rates.gpkg" , driver = "GPKG")
+#end

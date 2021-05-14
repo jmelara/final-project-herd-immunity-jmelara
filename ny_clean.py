@@ -292,6 +292,7 @@ joined  = query.merge(full_join, how = "left" , on = "GEOID" ,
 #use the .to_file() method on joined to export joined to a geopackage using the driver GPKG
 
 joined.to_file("new_york.gpkg" , driver = "GPKG")
+#end
 
 
 
