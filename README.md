@@ -14,6 +14,9 @@ levels of community transmission by state and county per month since the pandemi
 since the pandemic onset in March of 2020, vaccination data per county since vaccine became available in January 2021, and infection rates as of the week of 
 May 1st, 2021. 
 
+The script ny_clean.py is written to do this analysis on the State of New York, but could be easily applied to any state in the US by simply replacing the state fips codes and adding the corresponding infection and vaccination data from the CDC and New York Times data sources. Similarly, the script mapping.py 
+is equally transferrable to another state for future analysis. 
+
 This analysis also requires mapping in QGIS. Once the geopackages are written in spyder, open them in QGIS. To replicate this analysis - with the herd immunity geopackage, 
 set the value to "immunity" and heat map the results. Similarly, for the current infection geopackage, set the value to "Level of Community Transmission" and heat map the results. Of course, 
 the mapping can vary greatly in furture iterations of this code depending on which aspects of immnunity and infection are desriable and interesting to display. 
