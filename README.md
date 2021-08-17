@@ -19,4 +19,4 @@ is equally transferrable to another state for future analysis.
 
 This analysis also requires mapping in QGIS. Once the geopackages are written in spyder, open them in QGIS. To replicate this analysis - with the herd immunity geopackage, 
 set the value to "immunity" and heat map the results. Similarly, for the current infection geopackage, set the value to "Level of Community Transmission" and heat map the results. Of course, 
-the mapping can vary greatly in future iterations of this code depending on which aspects of immnunity and infection are desriable and interesting to display. 
+the mapping can vary greatly in future iterations of this code depending on which aspects of immunity and infection are desirable and interesting to display. 
